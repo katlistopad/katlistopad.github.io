@@ -1,0 +1,159 @@
+<html>
+<head> 	
+<style >
+
+.navbar {
+    overflow: hidden;
+    background-color: #808080;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: #FFCC33;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #FFCC33;
+}
+
+.show {
+    display: block;
+}
+
+
+</style>
+<title> Абиссинская кошка </title>
+
+<meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body bgcolor="#FFFFE0" topmargin="0" leftmargin="0">
+
+
+<div class="navbar">
+  <a href="cats.html">Главная</a>
+  <a href="history.html">Немножко истории</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Уход за животным
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="food.html">Питание</a>
+      <a href="ent.html">Развлечения</a>
+      <a href="active.html">Психическое здоровье кошек</a>
+    </div>
+  </div> 
+</div>
+
+
+<script>
+
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+
+
+<div align="center">
+<H2> Абиссинская кошка </H2>
+<Hr align="center" width="100%" size="2" color="#000000">
+<br>
+</div>
+<p>
+
+<table border="0" width="100%">
+<tr >
+<td> <center><img src="images/abissinskaya1.jpg" height="300" > </center> </td>
+<td> <center><img src="images/abissinskaya2.jpg" height="300"> </center> </td>
+<td> <center><img src="images/abissinskaya-koshka.jpg" height="300"> </center> </td>
+</tr>
+
+</table>
+ </p>
+ 
+ 
+ <p>
+ <ul>
+ <li><b> Тип шерсти:</b> Короткошерстная
+ <li><b> Вес:</b> 4–7,5 кг
+ <li><b> Рост:</b> 28–32 см
+ <li><b> Возраст:</b> 15–20 лет
+ </ul>
+ </p>
+ 
+ <H2><center> Описание </center></H2>
+  <p>
+ Абиссинская кошка обладает средним по длине телом с сильными мускулистыми конечностями. Голова округлой формы, у взрослых упитанных животных можно даже выделить щечки. 
+ Глаза правильной миндалевидной формы, окруженные светлой шерстью, но с темными линиями по контуру.
+
+Шерсть у абиссинцев очень мягкая на ощупь, плотно прилегающая к телу. Окрас весьма специфичен — каждый волос имеет не менее 4-х темных зон. 
+Короткие шерстинки имеют не менее 2-3 разных полос тикинга — чередующихся участков фона, но при равномерном распределении по всему телу он не образует никакого рисунка. 
+При этом линия позвоночника, подошвы задних лап и кончик хвоста окрашены более интенсивно.
+ </p>
+ 
+ <H2> <center>Характер</center> </H2>
+  <p>
+ Абиссинцы невероятно любопытны. Им все надо посмотреть, попробовать и понюхать. Владельцу стоит быть готовым к тому, что эта кошка всегда будет внезапно оказываться рядом. 
+ Но роль стороннего наблюдателя ей неинтересна. Она будет активно во всем участвовать, совать свои лапы и нос, отталкивая самого хозяина. 
+ Иногда такая чрезмерная активность может раздражать, но перевоспитать абиссинца невозможно. Это, пожалуй, самая энергичная порода кошек из существующих. 
+ Они все время в движении — либо играют, либо «помогают» хозяину, либо осматривают свою территорию. Они легко находят себе занятие, мгновенно, как дети, переключаясь с одного на другое. 
+ Абиссинцы очень независимы. Они ни за что не позволят взять себя на руки или посадить на колени, если сами этого не хотят. Зато если им захотелось ласки, 
+ тут уж они проявят всю свою настойчивость, чтобы привлечь внимание хозяина. Учитывая, что эти кошки невероятно разговорчивы, стоит быть готовым к самым активным требованиям.
+ </p>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<html>
+<head> 	
+<style >
+
+.navbar {
+    overflow: hidden;
+    background-color: #808080;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: #FFCC33;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #FFCC33;
+}
+
+.show {
+    display: block;
+}
+
+
+</style>
+<title> Гавана Браун </title>
+<meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="#FFF8DC" topmargin="0" leftmargin="0">
+<body bgcolor="#FFFFE0" topmargin="0" leftmargin="0">
+
+
+<div class="navbar">
+  <a href="cats.html">Главная</a>
+  <a href="history.html">Немножко истории</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Уход за животным
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="food.html">Питание</a>
+      <a href="ent.html">Развлечения</a>
+      <a href="active.html">Психическое здоровье кошек</a>
+    </div>
+  </div> 
+</div>
+
+
+<script>
+
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+
+<div align="center">
+<H2> Гавана Браун </H2>
+<Hr align="center" width="100%" size="3" color="#000000">
+<br>
+</div>
+<p>
+
+<table border="0" width="100%">
+<tr >
+<td> <center><img src="images/gavana-braun.jpg" height="300" > </center> </td>
+<td> <center><img src="images/gavana-braun1.jpg" height="300"> </center> </td>
+<td> <center><img src="images/gavana-braun2.jpg" height="300"> </center> </td>
+
+</tr>
+
+</table>
+ </p>
+ 
+ 
+ <div align="left">
+ <ul>
+ <li><b> Тип шерсти:</b> Короткошерстная
+ <li><b> Вес:</b> 4-5 кг
+ <li><b> Рост:</b> 23-25 см
+ <li><b> Возраст:</b> в среднем 15 лет
+  </ul>
+ </div>
+ 
+ <H2><center> Описание</center> </H2>
+  <p>
+Гавана обладает запоминающейся блестящей и очень мягкой шерстью красивого шоколадного окраса. Кстати, свое название она получила от одноименных кубинских сигар красновато-коричневого 
+цвета. Но шерсть не единственное достоинство этой породы. Гавана имеет выразительные, умные глаза насыщенного зеленого оттенка.
+</p>
+ 
+ <H2><center> Характер</center> </H2>
+  <p>
+Гавана браун — кошка с необычной внешностью и характером, десятилетиями боровшаяся за право считаться уникальной породой. На протяжении нескольких веков в помете ориентальных кошек 
+появлялись котята с отметинами шоколадного цвета и зелеными глазами. Они считались вариацией породы и не рассматривались как отдельная разновидность кошек. После того как в начале 
+XX века в Великобритании был принят стандарт, согласно которому у всех «восточных» кошек глаза должны быть голубыми, такие котята и вовсе стали считаться беспородными. Только к 
+середине века почитателям шоколадных оттенков удалось начать выводить кошек такого окраса.
+В племенной программе участвовали домашние кошки, сиамцы с коричневыми отметинами и даже русские голубые кошки. От своих предков гавана браун унаследовала мягкий характер, 
+дружелюбие и любвеобильность. В 60-х годах порода была привезена в США, где получила новый толчок к развитию. В частности, ее перестали скрещивать с другими породами. Сейчас 
+британская и американская ветви имеют некоторые различия. Представители первой из них более грациозны и разговорчивы, а их сородичи из Нового Света отличаются активностью и 
+любознательностью, их шерсть длиннее, а тело коренастее.
+ </p>
+</body>
+</html>

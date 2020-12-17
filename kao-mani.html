@@ -1,0 +1,154 @@
+<html>
+<head> 	
+<style >
+
+.navbar {
+    overflow: hidden;
+    background-color: #808080;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: #FFCC33;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #FFCC33;
+}
+
+.show {
+    display: block;
+}
+
+
+</style>
+<title> Као-Мани </title>
+<meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body bgcolor="#FFFFE0" topmargin="0" leftmargin="0">
+
+
+<div class="navbar">
+  <a href="cats.html">Главная</a>
+  <a href="history.html">Немножко истории</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Уход за животным
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="food.html">Питание</a>
+      <a href="ent.html">Развлечения</a>
+      <a href="active.html">Психическое здоровье кошек</a>
+    </div>
+  </div> 
+</div>
+
+
+<script>
+
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+<div align="center">
+<H2> Као-Мани </H2>
+<Hr align="center" width="100%" size="3" color="#000000">
+<br>
+</div>
+<p>
+
+<table border="0" width="100%">
+<tr>
+<td> <center><img src="images/kao-mani1.jpg" height="300" > </center> </td>
+<td> <center><img src="images/kao-mani2.png" height="300"> </center> </td>
+<td> <center><img src="images/kao-mani.jpg" height="300"> </center> </td>
+
+
+</tr>
+
+</table>
+ </p>
+ 
+ 
+ <div align="left">
+ <ul>
+ <li><b> Тип шерсти:</b> Короткошерстная
+ <li><b> Вес:</b> 3–5 кг
+ <li><b> Рост:</b> 25-30 см
+ <li><b> Возраст:</b> около 15 лет
+  </ul>
+ </div>
+ 
+ <H2><center> Описание</center> </H2>
+  <p>
+Кошки породы као-мани – среднего размера, с хорошо развитой мускулатурой. Конечности и хвост у них средней длины. Голова клинообразная, с умеренно большими, высоко поставленными 
+ушами. Глаза достаточно крупные, миндалевидной формы, голубого, зеленого, желтого цветов или и вовсе разноцветные (особенность, встречающаяся довольно редко). 
+По традиции предпочтение отдается кошкам с глазами разного цвета: люди верят, что они приносят удачу. Шерсть у кошек и котов као-мани белого окраса, короткая, гладкая и плотная, 
+почти без подшерстка.
+</p>
+ 
+ <H2><center> Характер </center></H2>
+  <p>
+Если речь идет о личности Као Мани, вы моментально поймете, что это супер игривая и любопытная кошка! Эта порода с удовольствием будет играть в игру и исследовать каждый уголок 
+окружающей среды - поэтому убедитесь, что для котенка установлено хотя бы одно кошачье дерево и желательно много безопасной мебели, которую можно изменить.
+Порода хорошо ладит с детьми и другими маленькими домашними животными, и быстро станет лучшим новым другом для ваших детей. Добавляя про игривую сторону Као Мани, это товарищеская 
+кошка, которая всегда хочет быть в центре любых действий, которые происходят. Если вас нет дома большую часть дня, кошка может страдать от одиночества.
+ </p>
+</body>
+</html>

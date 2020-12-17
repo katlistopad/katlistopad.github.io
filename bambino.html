@@ -1,0 +1,155 @@
+	
+<html>
+<head> 	
+<style >
+
+.navbar {
+    overflow: hidden;
+    background-color: #808080;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: #FFCC33;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #FFCC33;
+}
+
+.show {
+    display: block;
+}
+
+
+</style>
+<title> Бамбино </title>
+<meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor="#FFFFE0" topmargin="0" leftmargin="0">
+
+<div class="navbar">
+  <a href="cats.html">Главная</a>
+  <a href="history.html">Немножко истории</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Уход за животным
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="food.html">Питание</a>
+      <a href="ent.html">Развлечения</a>
+      <a href="active.html">Психическое здоровье кошек</a>
+    </div>
+  </div> 
+</div>
+
+
+<script>
+
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+<div align="center">
+<H2> Бамбино </H2>
+<Hr align="center" width="100%" size="3" color="#000000">
+<br>
+</div>
+<p>
+
+<table border="0" width="100%">
+<tr >
+<td> <center><img src="images/bambino.jpg" height="300" > </center> </td>
+<td> <center><img src="images/bambino1.jpg" height="300"> </center> </td>
+<td> <center><img src="images/bambino2.jpg" height="300"> </center> </td>
+
+</tr>
+
+</table>
+ </p>
+ 
+ 
+ <p>
+ <ul>
+ <li><b> Тип шерсти:</b> Лысая
+ <li><b> Вес:</b> 2–4 кг
+ <li><b> Рост:</b> Около 15 см
+ <li><b> Возраст:</b> 12–15 лет
+  </ul>
+ </p>
+ 
+ <H2><center> Описание </center> </H2>
+  <p>
+Отсутствие у бамбино шерсти делает породу чувствительной к холоду. Зимой животное лучше всего одевать в свитер или любую другую теплую одежду. Будьте внимательны: кошки любят 
+погреться у батареи или на солнышке, что может привести к ожогам.
+Как и других лысых кошек, бамбино необходимо регулярно купать. Это связано с тем, что выделения из сальных желез не впитываются в шерсть и, смешиваясь с пылью и грязью, могут 
+спровоцировать развитие кожных заболеваний. Приучать котенка к ванной стоит с 2–3 месяцев. Кроме того, владелец должен регулярно протирать складки бамбино и следить за чистотой его 
+ушей и глаз.
+</p>
+ 
+ <H2><center> Характер </center></H2>
+  <p>
+Кошка породы бамбино не может никого оставить равнодушным: короткие лапы и кожа, напоминающая бархат или замшу, очаровывают с первого взгляда. За свой характер бамбино получили 
+кличку «обезьянки», ведь они такие игривые, активные и любознательные. Не останавливают маленьких исследователей даже короткие лапы. Кошки с удовольствием бегают, напоминая при 
+этом хорька, и даже запрыгивают на невысокие поверхности.
+Бамбино быстро привязываются к человеку и сохраняют любовь на всю жизнь. Они замечательные компаньоны, которые будут повсюду сопровождать своего хозяина. Кстати, замечено, что 
+представители этой породы — отличные путешественники, легко переносящие переезды. Главное для них, чтобы хозяин был рядом.
+Бамбино очень общителен и дружелюбен. Эти кошки уживаются с собаками, грызунами и даже птицами. Наличие в доме детей принесет им двойное удовольствие, ведь возиться и играть с 
+ребенком они могут практически круглосуточно.
+ </p>
+</body>
+</html>

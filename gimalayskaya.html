@@ -1,0 +1,156 @@
+<html>
+<head> 	
+<style >
+
+.navbar {
+    overflow: hidden;
+    background-color: #808080;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: #FFCC33;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #FFCC33;
+}
+
+.show {
+    display: block;
+}
+
+
+</style>
+<title> Гималайская кошка </title>
+<meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body bgcolor="#FFFFE0" topmargin="0" leftmargin="0">
+
+
+<div class="navbar">
+  <a href="cats.html">Главная</a>
+  <a href="history.html">Немножко истории</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Уход за животным
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="food.html">Питание</a>
+      <a href="ent.html">Развлечения</a>
+      <a href="active.html">Психическое здоровье кошек</a>
+    </div>
+  </div> 
+</div>
+
+
+<script>
+
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+<div align="center">
+<H2> Гималайская кошка </H2>
+<Hr align="center" width="100%" size="3" color="#000000">
+<br>
+</div>
+<p>
+
+<table border="0" width="100%">
+<tr >
+<td> <center><img src="images/gimalayskaya-koshka.jpg" height="300"> </center> </td>
+<td> <center><img src="images/gimalayskaya-koshka1.jpg" height="300" > </center> </td>
+<td> <center><img src="images/gimalayskaya-koshka2.jpg" height="300"> </center> </td>
+
+</tr>
+
+</table>
+ </p>
+ 
+ 
+ <p>
+ <ul>
+ <li><b> Тип шерсти:</b> Полудлинношерстная
+ <li><b> Вес:</b> 2–5 кг
+ <li><b> Рост:</b> до 30 см
+ <li><b> Возраст:</b> 10–15 лет
+  </ul>
+ </p>
+ 
+ <H2><center> Описание </center> </H2>
+  <p>
+Ближайшими сородичами балинезийских кошек являются сиамы. Интересно, что в XIX-XX веках многие сиамские кошки приносили в помете длинношерстных котят, однако заводчики не придавали 
+этому значения и не обращали внимания на мутацию. Ситуация изменилась в 1928 году, когда полудлинношерстная сиамская кошка была впервые зарегистрирована на выставке в качестве 
+животного шоу-класса. А с 1950-х годов началась планомерная работа по развитию новой породы. 
+Кстати, свое название балинезийская кошка получила вовсе не за связь с Индонезией, а за грациозность и плавность движений: кошек сравнивали с балийскими танцовщицами.</p>
+ 
+ <H2><center> Характер</center> </H2>
+  <p>
+Балинез обладает непростым характером. Эти кошки независимы, но ласковы, они не любят навязчивое общение, но не могут подолгу находиться без хозяина. 
+Поэтому они вряд ли подойдут людям, которые часто задерживаются на работе и подолгу не бывают дома.
+
+Балинезийские кошки считаются одними из самых умных представителей длинношерстного семейства. Кроме того, они еще и очень любопытны, поэтому владелец должен позаботиться о 
+безопасности питомца, например, поставить замки-блокираторы на нижние ящики и дверцы шкафов.
+
+Балинезийские кошки преданы своей семье, они любят общение и разговоры. Кстати, питомцы этой породы довольно говорливы, а палитра издаваемых ими звуков поистине разнообразна. 
+Но, несмотря на общительность, балинезы не слишком доверяют незнакомым людям, да и шумным компаниям они, скорее всего, предпочтут отдых в тишине.
+ </p>
+</body>
+</html>

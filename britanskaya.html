@@ -1,0 +1,157 @@
+<html>
+<head> 	
+<style >
+
+.navbar {
+    overflow: hidden;
+    background-color: #808080;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: #FFCC33;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #FFCC33;
+}
+
+.show {
+    display: block;
+}
+
+
+</style>
+<title> Британская короткошерстная кошка </title>
+<meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body bgcolor="#FFFFE0" topmargin="0" leftmargin="0">
+
+
+<div class="navbar">
+  <a href="cats.html">Главная</a>
+  <a href="history.html">Немножко истории</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Уход за животным
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="food.html">Питание</a>
+      <a href="ent.html">Развлечения</a>
+      <a href="active.html">Психическое здоровье кошек</a>
+    </div>
+  </div> 
+</div>
+
+
+<script>
+
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+<div align="center">
+<H2> Британская короткошерстная кошка </H2>
+<Hr align="center" width="100%" size="3" color="#000000">
+<br>
+</div>
+<p>
+
+<table border="0" width="100%">
+<tr >
+<td> <center><img src="images/britanskaya.jpg" height="300" > </center> </td>
+<td> <center><img src="images/britanskaya1.jpg" height="300"> </center> </td>
+<td> <center><img src="images/britanskaya2.jpg" height="300"> </center> </td>
+
+</tr>
+
+</table>
+ </p>
+ 
+ 
+ <div align="left">
+ <ul>
+ <li><b> Тип шерсти:</b> Короткошерстная
+ <li><b> Вес:</b> 6–12 кг
+ <li><b> Рост:</b> Около 33 см
+ <li><b> Возраст:</b> 10–15 лет
+  </ul>
+ </div>
+ 
+ <H2><center> Описание</center> </H2>
+  <p>
+Достоинство британцев — их шуба, густая и мягкая. Это благодаря тому, что шерсть и подшерсток у них одинаковой длины. Чтобы сохранить ее прекрасный вид, необходимо ежедневно 
+вычесывать кошку с помощью специальных щеток с натуральной щетиной. В период линьки регулярность расчесывания увеличивают до двух раз в день. Британские кошки этот процесс любят, 
+причем даже не сопротивляются при движении против шерсти.
+Если не уделять должного внимания уходу за шерстью, выпавшие волоски при вылизывании попадут внутрь организма кошки, что чревато развитием заболеваний пищеварительной системы.</p>
+ 
+ <H2><center> Характер </center></H2>
+  <p>
+Британская короткошерстная кошка — идеальный домашний питомец для тех, кто любит покой и тишину. Представители этой породы — настоящие английские аристократы, которые ни за что 
+не позволят себе слишком активных игр и пустого бега по квартире.
+Взрослый британец — образец серьезности, независимости и сдержанности. Вместе с тем котята этой породы достаточно активны и любопытны, поэтому нуждаются в воспитании с самого 
+рождения. Британские короткошерстные кошки прекрасно подходят людям, которые не привыкли проводить слишком много времени дома. Эти кошки не будут страдать и грустить в отсутствие 
+человека. Однако это вовсе не говорит о том, что они не любят своего хозяина. Наоборот, в отличие от многих других представителей кошачьих, британцы привязываются ко всем членам 
+семьи, не делая исключений.
+Несмотря на независимость, британская короткошерстная кошка требует к себе внимания. И жестоко наказывает владельца, который не уделяет ей такового. С британцем необходимо играть, 
+разговаривать и, конечно, ласкать и гладить. Но делать это стоит только тогда, когда у кошки будет настроение. Иначе бестактное поведение может быть расценено как попытка нарушить 
+устоявшиеся правила общения и личное пространство питомца.
+ </p>
+</body>
+</html>
